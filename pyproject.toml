@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "premier-league-pymc-demo"
+version = "0.1.0"
+description = ""
+authors = ["ThomasUdale <75200602+ThomasUdale@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "premier_league_pymc_demo"}]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+pymc = "^4.2.0"
+scikit-learn = "^1.1.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
