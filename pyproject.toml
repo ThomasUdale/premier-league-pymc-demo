@@ -10,6 +10,7 @@ packages = [{include = "premier_league_pymc_demo"}]
 python = "3.10.6"
 pymc = "^4.2.0"
 scikit-learn = "^1.1.2"
+graphviz = "0.20.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.8.0"
